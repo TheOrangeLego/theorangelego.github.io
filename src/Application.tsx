@@ -5,7 +5,7 @@ import { Text, View } from 'react-native'
 const Application = () => (
   <>
     <View>
-      <Text>Hello World!! -- SITE UNDER CONSTRUCTION</Text>
+      <Text>SITE UNDER CONSTRUCTION</Text>
     </View>
   </>
 )
