@@ -1,0 +1,23 @@
+title: TheOrangeLego - Pragmatic Pandemonium
+email: gzjosef@gmail.com
+description: Just a collection of stuff I have and currently am working on
+baseurl: ""
+url: "https://theorangelego.github.io/"
+twitter_username: theorangelego
+github_username:  theorangelego
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

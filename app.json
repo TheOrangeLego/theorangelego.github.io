@@ -1,8 +1,0 @@
-{
-  "expo": {
-    "entryPoint": "./src/Application.tsx",
-    "name": "TheOrangeLego - Pragmatic Pandemonium",
-    "slug": "theorangelego-pragmatic-pandemonium",
-    "version": "0.0.1"
-  }
-}
