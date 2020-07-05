@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 ---
 
 Hello world. This is a very long message that is testing out the maximum width of the text documents being printed

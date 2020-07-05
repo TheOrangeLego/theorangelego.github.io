@@ -1,12 +1,13 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import '{{ site.theme }}';
 
 body {
-  background-color: #424242;
+  background-color: #2C2C2C;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -17,29 +18,35 @@ p {
 }
 
 #header {
+  border-bottom: 1px solid #FFA000;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height: 80px;
-  padding: 0px 100px;
-}
-
-.header-button {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 80px;
-  width: 100%;
-  margin: 0px;
+  justify-content: space-between;
+  height: 50px;
   padding: 0px 10px;
 }
 
-.header-button-link,
-.header-button-link:hover {
-  font-size: 24px;
+#header-right {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo-button,
+.header-link-button {
+  justify-content: center;
+  padding: 15px;
+}
+
+.header-logo-button-link,
+.header-link-button-link {
+  align-content: center;
+  font-size: 16px;
   text-decoration: none;
 }
 
-.header-button:hover {
-  background-color: #323232;
+.header-logo-button-link:hover,
+.header-link-button-link:hover {
+  color: #FFC000;
+  text-decoration: none;
 }
