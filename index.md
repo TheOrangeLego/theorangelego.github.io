@@ -2,31 +2,15 @@
 layout: homepage
 ---
 
-# Main Title
+By no means am I an expert. I will never claim to be one, but that should not stop me from learning.
 
-This is the paragraph going under the main title, usually the pretext to the information to be presented.
+You can find supplemental resources that I have written on topics of my interests under the [GUIDES](/guides) directory.
+Anyone is more than welcome to use, modify, or distribute as desired; my only desire is to know that I can help anyone
+who also shares my interests understand or reinforce what they know of.
 
-### New Category
+As I mentioned, I am no expert in my field nor interests, but I have a desire to research questions that arise in my
+head. These questions may, and most likely already, have been answered, but all papers under the [PAPERS](/papers)
+directory are of my own interpretation written through my own words.
 
-And this is yet another subcategory text.
-
-
-```cpp
-int main( int argc, char* argv[] ) {
-  return 0;
-}
-```
-
-```typescript
-const fixable : boolean = isWednesday || !looksHard
-```
-
-### Yet Another Category
-
-_Suppose_ that we want to emphasize, **bolden**, and to make
-
-* a
-* list
-* for
-
-some purposes.
+Lastly, any personal and/or public projects that I have worked on can be found under the [PROJECTS](/projects)
+directory. I have provided a link to the repo, if applicable, and a description of the project per entry.
