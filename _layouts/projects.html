@@ -2,7 +2,7 @@
 
 <html lang='{{ site.lang | default: "en-US" }}'>
   <head>
-    <title>TheOrangeLego | Homepage</title>
+    <title>TheOrangeLego | Projects</title>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -30,8 +30,10 @@
 
    <div id='content'>
      <div id='content-left'>
-       {% for project in site.data.projects %}
-         <a href='{{ project.content }}'>{{ project.title }}</a>
+      {% for project in site.data.projects %}
+        <div class='content-left-button'>
+          <a href='{{ project.content }}'>{{ project.title }}</a>
+        </div>
        {% endfor %}
      </div>
 

@@ -1,20 +1,22 @@
 ---
 ---
 
-.highlighter-rouge {
-  padding: 10px;
-}
-
 .highlight,
 code {
   background-color: #202020;
   border-radius: 10px;
-  line-height: 2;
-  padding: 5px ;
+  padding: 13px;
 }
 
 .highlighter-rouge {
-  padding: 10px 25px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+code {
+  color: #CCCCCC;
+  line-height: 2;
+  padding: 0px;
 }
 
 /* the following is taken from jwarby/jekyll-pygments-themes @ GitHub */

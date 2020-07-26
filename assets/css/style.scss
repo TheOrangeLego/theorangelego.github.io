@@ -11,27 +11,37 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6,
-ul, li,
+ol, ul, li,
 a,
 p {
   color: #FFA000;
   font-family: 'Courier New', Courier, monospace;
+  font-size: small;
   line-height: 2.5;
   margin: 0px;
 }
 
-ul {
-  padding: 0px 50px;
+ol > li,
+ul > li {
+  min-height: 30px;
 }
 
-li {
-  line-height: 1.7;
+ol {
+  padding: 0px 50px 0px 85px;
+}
+
+ul {
+  padding: 0px 60px;
+}
+
+ul > li {
   list-style: none;
 }
 
-li:before {
-    content: ">_ ";
-    font-size: 20px;
+ul > li:before {
+    content: "> ";
+    font-size: 13px;
+    padding-right: 10px;
     vertical-align: middle;
 }
 
@@ -79,32 +89,53 @@ li:before {
   justify-content: center;
   flex-direction: row;
   margin: 0px;
-  padding: 0px;
+  padding-bottom: 30px;
+
+  li > p {
+    padding: 0px;
+    text-indent: 0px;
+  }
+
+  p {
+    line-height: 2.0;
+    padding: 0px 30px;
+    text-indent: 30px;
+  }
 }
 
 #content-left,
 #content-center,
 #content-right {
-  align-self: center;
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 30px 20px;
 }
 
 #content-left,
 #content-right {
   max-width: 150px;
+  padding: 20px 0px;
+}
+
+.content-left-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 15px;
+  width: 100%;
+
+  a:hover {
+    color: #FFC000;
+    text-decoration: none;
+  }
+}
+
+.content-left-button:hover {
+  border-right: 2px solid #FFA000;
 }
 
 #content-center {
   flex-grow: 1;
-}
-
-#content p {
-  line-height: 4.0;
-  padding: 0px 30px;
-  text-indent: 60px;
+  padding: 20px;
 }
 
 #footer {
