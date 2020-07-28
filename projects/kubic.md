@@ -19,6 +19,7 @@ static type, non-verbose programming language.
 ##### Requirements --
 
 * AMD64 executable CPU
+
 * C++ Boost library
 
 ##### Process --

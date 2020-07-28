@@ -1,3 +1,7 @@
+# Personal Website
+
+A simple frontend website bootstrapped through Jekyll and hosted through Github Pages.
+
 ### Acknowledgements
 
 * all icons were retrieved from [Icons8](https://icons8.com)
