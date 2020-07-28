@@ -6,22 +6,22 @@ layout: projects
 
 Kubic is an open source programming language meant to be consice and fast.
 
-### Motivation
+### Motivation --
 
 Coming from a background in static type languages, I appreciated the simplistic syntax from Python, though I was never
 a fan of its dynamic type system. Instead of relying on additional frameworks or libraries, Kubic at its core is a
 static type, non-verbose programming language.
 
-### Sample Code
+### Sample Code --
 
-### Compiling from Source
+### Compiling from Source --
 
-##### Requirements
+##### Requirements --
 
 * AMD64 executable CPU
 * C++ Boost library
 
-##### Process
+##### Process --
 
 There are currently four primary pipelines that form the process of compiling a Kubic `*.kbc` source file to
 generate an executable binary file.
@@ -34,7 +34,7 @@ generate an executable binary file.
 
 4.  A binary executable is created by bundling the assembly file with a CPP source file
 
-### File Structure
+### File Structure --
 
 ```markdown
 kubic/

@@ -21,6 +21,20 @@ p {
   margin: 0px;
 }
 
+h1 {
+  align-self: center;
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+  padding-left: 15px;
+}
+
 ol > li,
 ul > li {
   min-height: 30px;
@@ -39,7 +53,7 @@ ul > li {
 }
 
 ul > li:before {
-    content: "> ";
+    content: ">.";
     font-size: 13px;
     padding-right: 10px;
     vertical-align: middle;
